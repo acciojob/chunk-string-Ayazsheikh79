@@ -1,7 +1,7 @@
 function stringChop(str, size) {
   // your code here
 	if (!str) return []
-	const regex = new RegExp(`.{1, ${size}}`, "g")
+	const regex = new RegExp(`.{1,${size}}`, "g")
 	return str.match(regex) || []
 }
 
